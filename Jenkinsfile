@@ -23,7 +23,7 @@ pipeline {
                }
              stage('Deploy to Dev'){
                 steps{
-                   echo "Deploying to Dev Environment")
+                   echo "Deploying to Dev Environment"
                    }
                  }
         }
